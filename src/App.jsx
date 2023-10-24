@@ -2,7 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
-import NavBar from './component/NavBar/NavBar'
+import NavBar from './component/NavBar/NavBar';
 
 function App() {
   
