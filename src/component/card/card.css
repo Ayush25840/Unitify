@@ -1,0 +1,12 @@
+.card{
+    width:100px;
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    /* align-items: center; */
+}
+.input{
+    width:80%;
+}
