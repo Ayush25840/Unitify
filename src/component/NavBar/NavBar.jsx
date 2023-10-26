@@ -1,12 +1,12 @@
 import './NavBar.css';
-
+import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
     <nav className="navbar container navbar-expand-lg ">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           Unitify+
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,15 +21,15 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active mx-5"  aria-current="page" href="#">
+              <Link className="nav-link active mx-5"  aria-current="page" to="/">
               <iconify-icon icon="ph:thermometer" width="30" height="30"></iconify-icon>
-              </a>
+              </Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link mx-5" href="#"><iconify-icon icon="uit:ruler" width="30" height="30"></iconify-icon></a>
+              <Link className="nav-link mx-5" to="/length"><iconify-icon icon="uit:ruler" width="30" height="30"></iconify-icon></Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link mx-5" href="#"><iconify-icon icon="mdi:barometer" width="30" height="30"></iconify-icon></a>
+              <Link className="nav-link mx-5" to="/prssure"><iconify-icon icon="mdi:barometer" width="30" height="30"></iconify-icon></Link>
             </li>
            
           </ul>
